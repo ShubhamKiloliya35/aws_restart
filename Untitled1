@@ -1,0 +1,10 @@
+
+number1 = input("enter the number1 ")
+number2 = input("enter the number2 ")
+number3 = input("enter the number3 ")
+if number1 > number2 > number3 :
+   print("number1 is greater than number2 and number3")
+elif number1 < number2 > number3 :
+    print("number2 is greater than number1 and number3")
+else:
+    print("number3 is greater than number1 and number2")
